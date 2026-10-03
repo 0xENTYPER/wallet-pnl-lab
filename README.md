@@ -236,6 +236,12 @@ This reference intentionally omits chain-specific indexers and private product l
 
 The project demonstrates accounting boundaries and implementation choices. It is not tax advice, a complete portfolio accountant, or a claim that FIFO is the only valid accounting method. Jurisdictional reporting can require a different method.
 
+## Related work
+
+- [onchain-market-data-pipeline](https://github.com/0xENTYPER/onchain-market-data-pipeline) covers freshness and provider failure before data reaches accounting logic.
+- [multi-chain-token-resolver](https://github.com/0xENTYPER/multi-chain-token-resolver) resolves token identity and valuation semantics across EVM and Solana.
+- [PNLFlex](https://github.com/0xENTYPER/pnlflex) shows the calendar and wallet workflow this methodology is designed to support.
+
 ## Author
 
 Built by [0xENTYPER](https://github.com/0xENTYPER).
